@@ -2,7 +2,7 @@ const fibos = require("fibos");
 
 const CONFIG = {
     node_dir: "./node",
-    DBconnString: "mysql://root:123456@127.0.0.1/otc_data"
+    DBconnString: "mysql://root:123456@127.0.0.1/chain_data"
 }
 
 fibos.config_dir = CONFIG.node_dir;
